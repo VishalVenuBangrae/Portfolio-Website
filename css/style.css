@@ -1,0 +1,119 @@
+
+  .gradient-background {
+    background: linear-gradient(300deg, #31363F, #76ABAE, #EEEEEE);
+    background-size: 180% 180%;
+    animation: gradient-animation 7s ease infinite;
+  }
+.typed-cursor {
+    font-weight: 100;
+    font-size: 26px;
+    color: #05b8ee;
+}
+.typed-cursor.typed-cursor--blink {
+    opacity: 1;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+.name{
+    font-size: 3.5rem;
+}
+.img1{
+    display: flex;
+    
+    align-items: end    ;
+}
+
+.blinker-text{
+    font-size: 1.8rem;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.sidebar{
+    height :100vh;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .profile-img {
+    height: 200px;
+    border-radius: 50%;
+    border:5px solid white;
+    
+  }
+.abt_me{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.abt_me_txt{
+    color: white; text-align: left; font-size: 1.4rem;
+}
+
+#interests img{
+    border: 10px solid black;
+}
+#interests h2{
+    font-weight: 600;
+}
+
+
+
+@media (max-width: 992px){.blinker-text{
+    font-size: 0.8rem;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-align: center;
+
+}
+.centered {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .abt_me_txt{
+    color: white; text-align: left; font-size: 1rem;
+}
+.name{
+    font-size: 2rem;
+}
+
+
+}
+@media (max-width: 992px){.blinker-text{
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-align: center;
+
+}
+.name{
+    font-size: 2rem;
+}
+
+}
+@media (max-width: 576px){.blinker-text{
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-align: center;
+
+
+}
+.name{
+    font-size: 1.4rem;
+}
+
+}
